@@ -36,7 +36,7 @@ contract Storage {
      * @return value of 'number'
      */
     // 检索函数，该函数是一个 view 函数，不会修改区块链上的状态
-    // 该函数翻译状态变量 number 的值，也是 public 的
+    // 该函数翻译状态变量 number 的值，也是 public 的，公共的
     function retrieve() public view returns (uint256){
         return number;
     }
